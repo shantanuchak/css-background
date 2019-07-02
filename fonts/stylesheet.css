@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Kungfont';
+    src: url('Kungfont-Regular.woff2') format('woff2'),
+        url('Kungfont-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
