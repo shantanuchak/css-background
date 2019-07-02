@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=McLaren&display=swap');
+@font-face{
+  font-family: 'Kungfont';
+  src: url(../fonts/Kungfont.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
 
 body{
   color: white;
-  font-family: 'McLaren', cursive;
-  font-weight: 800;
+  font-family: Kungfont;
   -webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
@@ -22,7 +26,7 @@ body{
 
 .section h1 {
   text-align: center;
-  font-size: 7.5vw;
+  font-size: 6rem;
   padding: 20px;
   margin: 15px;
   z-index: 1;
